@@ -1,0 +1,23 @@
+ // wap to find the faactorial by increment of for loop
+ #include<stdio.h>
+int main()
+{
+    int i,n;
+    int fact =1;
+    printf("enter the number:");
+    scanf("%d",&n);
+    if(n==0)
+    printf("the factorial of zero is:1");
+    else
+    {
+    	
+	
+    for(i=1;i<=n;i++)
+
+    {
+        fact = fact*i;
+    }
+    printf("the factorial of the %d number is:%d",n,fact);
+}
+    return 0;
+}
